@@ -17,7 +17,8 @@
     <!--header section-->
 
     <header class="header">
-        <a class="company-name link" href="" lang="en"><span class="company-name-web link">Web</span
+      <a class="company-name link" href="" lang="en"
+        ><span class="company-name-web link">Web</span
         ><span class="company-name-studio link">Studio</span></a
       >
       <nav class="navigation">
@@ -26,7 +27,9 @@
             <a class="navigation-list-item link" href="index.html">Студия</a>
           </li>
           <li class="navigation-list-item">
-            <a class="navigation-list-link-portfolio link" href="portfolio.html">Портфолио</a>
+            <a class="navigation-list-link-portfolio link" href="portfolio.html"
+              >Портфолио</a
+            >
           </li>
           <li class="navigation-list-item">
             <a class="navigation-list-item link" href="#contacts">Контакты</a>
@@ -51,7 +54,9 @@
     <main>
       <!--section 1 motto and button-->
       <section class="section-moto">
-        <h1 class="section-moto-head">Эффективные решения для вашего бизнеса</h1>
+        <h1 class="section-moto-head">
+          Эффективные решения для вашего бизнеса
+        </h1>
         <button class="section-moto-order-btn link" type="button">
           Заказать услугу
         </button>
@@ -110,24 +115,27 @@
       <section class="company-activities">
         <h2 class="company-activities-head">Чем мы занимаемся</h2>
         <ul>
-          <li>
+          <li class="company-activities-images list">
             <img
+              class="activity-picture"
               src="./images/box1.jpg"
               alt="печатает на клавиатуре"
               width="370"
               height="294"
             />
           </li>
-          <li>
+          <li class="company-activities-images list">
             <img
+              class="activity-picture"
               src="./images/box2.jpg"
               alt="выбирает вид отображения приложения для телефона"
               width="370"
               height="294"
             />
           </li>
-          <li>
+          <li class="company-activities-images list">
             <img
+              class="activity-picture"
               src="./images/box3.jpg"
               alt="смотрит цветовую гамму на планшете"
               width="370"
@@ -137,73 +145,85 @@
         </ul>
       </section>
       <!--section 4 Our team-->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="team-section">
+        <h2 class="team-section-head">Наша команда</h2>
+        <ul class="team-section-list list">
           <li>
             <img
+              class="team-picture"
               src="./images/team1.jpg"
               alt="парень в очках в бордовой рубашке"
               width="270"
               height="260"
             />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="team-section-list-head">Игорь Демьяненко</h3>
+            <p class="team-section-list-text">Product Designer</p>
           </li>
 
           <li>
             <img
+              class="team-picture"
               src="./images/team2.jpg"
               alt="девушка в черном костюме"
               width="270"
               height="260"
             />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-section-list-head">Ольга Репина</h3>
+            <p class="team-section-list-text">Frontend Developer</p>
           </li>
 
           <li>
             <img
+              class="team-picture"
               src="./images/team3.jpg"
               alt="парень в голубой рубашке смотрит в сторону"
               width="270"
               height="260"
             />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="team-section-list-head">Николай Тарасов</h3>
+            <p class="team-section-list-text">Marketing</p>
           </li>
 
           <li>
             <img
+              class="team-picture"
               src="./images/team4.jpg"
               alt="парень в очках в черной футболке"
               width="270"
               height="260"
             />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="team-section-list-head">Михаил Ермаков</h3>
+            <p class="team-section-list-text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
     <footer>
-      <section>
-        <a href="">WebStudio</a>
+      <section class="footer-section">
+        <a class="footer-company-name link" href="" lang="en"
+          ><span class="footer-company-name-web">Web</span
+          ><span class="footer-company-name-studio">Studio</span></a
+        >
         <address id="contacts">
-          <ul>
+          <ul class="footer-list list">
             <li>
               <a
+                class="footer-list-item-address link"
                 href="https://goo.gl/maps/29DhK9MTSFLu9xUr9target="
                 target="_blank"
                 >г. Киев, бульвар Леси Украинки, 26</a
               >
             </li>
             <li>
-              <a href="mailto:info@example.com">info@example.com</a>
+              <a class="footer-list-item link" href="mailto:info@example.com"
+                >info@example.com</a
+              >
             </li>
             <li>
-              <a href="tel:+380991111111">+38 099 111 11 11</a>
+              <a class="footer-list-item link" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
             </li>
           </ul>
         </address>
