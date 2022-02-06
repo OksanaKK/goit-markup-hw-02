@@ -1,78 +1,144 @@
 :root {
   --primary-font-family: Roboto, ssans-serif;
   --secondary-font-family: Raleway, sans-serif;
-  --primary-text-color-theme-dark: #E5E5E5;
-  --primary-text-color-theme-light:#FFFFFF;
-  --secondary-text-color-theme-dark: #2F303A;
-  --secondary-text-color-theme-light:#F5F4FA;
-  --accent-color: #2196F3;
+  --primary-text-color-text: #757575;
+  --title-text-color: #212121;
+  --secondary-title-text-color: #ffffff;
+  --secondary-text-color: #2196f3;
+  --accent-color: #2196f3;
 }
 
+.body {
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-color-text);
+}
 
 .list {
-    list-style-type: none;
+  list-style-type: none;
 }
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 .link:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
-/*====header=====*/
+.link:focus {
+  color: var(--accent-color);
+}
+/*====header starts=====*/
 
 .header {
-    background-color: var(--primary-text-color-theme-light);
+  background-color: #ffffff;
 }
 
-.company-name {
-    font-family: var(--secondary-font-family);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-
+.cocompany-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
 }
 .company-name-web {
-    color: #2196F3;
+  color: var(--secondary-text-color);
 }
 .company-name-studio {
-    color: #000;
+  color: #000;
 }
 .navigation {
-    font-family: var(--primary-font-family);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em; 
+  font-family: var(--primary-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
-
 .navigation-list-item {
-    
-    color: #212121; 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .navigation-list-link-portfolio {
-    color: #2196F3;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 .contacts-item-link {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    color:#757575;
-    
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--primary-text-color-text);
 }
 /*====header end=====*/
+/*===main section===*/
+
+/*==moto section===*/
+
+.section-moto {
+  background-color: #2f303a;
+}
+.section-moto-head {
+  font-family: Roboto;
+  color: var(--secondary-title-text-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.section-moto-order-btn {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--secondary-title-text-color);
+  background-color: var(--secondary-text-color);
+  
+}
+/*==moto-section ends==*/
+
+/*===company qualities==*/
+.section-qualities {
+  background-color: #e5e5e5;
+}
+.section-qualities-title {
+  color: #e5e5e5;
+}
+.section-qualities-title-list-item-head {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.section-qualities-title-list-item-text {
+  color: var(--primary-text-color-text);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+/*===company qualities ends==*/
+
+/*===Company Activities===*/
+.company-activities {
+    background-color: #E5E5E5;
+}
+.company-activities-head {
+color: var(--title-text-color);
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+}
