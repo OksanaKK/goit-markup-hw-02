@@ -196,7 +196,7 @@
   background-color: #2f303a;
 }
 .footer-company-name {
-  font-family: var(--secondary-font-family);
+  font-family:var(--secondary-font-family);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
