@@ -96,6 +96,7 @@
   text-transform: uppercase;
 }
 .section-moto-order-btn {
+  cursor: pointer;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -196,7 +197,7 @@
   background-color: #2f303a;
 }
 .footer-company-name {
-  font-family:var(--secondary-font-family);
+  font-family: var(--secondary-font-family);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -224,36 +225,38 @@
 }
 /*====portfolio start=====*/
 .main-section {
-    background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
+
 .main-section-navigation-list-btn {
-color: var(--title-text-color);
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
 }
 .main-section-navigation-list-btn:hover {
-    color: var(--secondary-title-text-color);
-    background-color: var(--accent-color);
+  color: var(--secondary-title-text-color);
+  background-color: var(--accent-color);
 }
 .projects {
-    color: #E5E5E5;
+  color: #e5e5e5;
 }
 .projects-list-item-head {
-color: var(--title-text-color);
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
 }
 
 .projects-list-item-text {
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
 }
