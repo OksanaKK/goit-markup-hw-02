@@ -62,7 +62,8 @@ body {
   color: var(--secondary-text-color);
   }
 
-.contacts-item-link {
+.contacts-link {
+  color: var(--primary-text-color-text);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
